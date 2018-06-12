@@ -1,0 +1,79 @@
+instance: 1 # this is the first building in the dataset
+original_name: house_1 
+elec_meters: # a dictionary where each key is a meter instance
+  1: 
+    site_meter: true
+    device_model: meter
+  2:
+    submeter_of: 1
+    device_model: logger
+  3: 
+    submeter_of: 1
+    device_model: logger
+  4: 
+    submeter_of: 1
+    device_model: logger
+  5: 
+    submeter_of: 1
+    device_model: logger
+  6: 
+    submeter_of: 1
+    device_model: logger
+  7: 
+    submeter_of: 1
+    device_model: logger
+  8: 
+    submeter_of: 1
+    device_model: logger
+  9: 
+    submeter_of: 1
+    device_model: logger
+  10: 
+    submeter_of: 1
+    device_model: logger
+  11: 
+    submeter_of: 1
+    device_model: logger
+  12: 
+    submeter_of: 1
+    device_model: logger
+  13: 
+    submeter_of: 1
+    device_model: logger
+appliances:
+- type: air conditioner
+  instance: 1
+  meters: [2]
+- type: hair dryer
+  instance: 1
+  meters: [3]
+- type: electric water heater
+  instance: 1
+  meters: [4]
+- type: cooker
+  instance: 1
+  meters: [5]
+- type: dehumidifier
+  instance: 1
+  meters: [6]
+- type: fridge
+  instance: 1
+  meters: [7]
+- type: electric space heater
+  instance: 1
+  meters: [8]
+- type: clothes iron
+  instance: 1
+  meters: [9]
+- type: rice cooker
+  instance: 1
+  meters: [10]
+- type: television
+  instance: 1
+  meters: [11]
+- type: running machine
+  instance: 1
+  meters: [12]
+- type: washing machine
+  instance: 1
+  meters: [13]

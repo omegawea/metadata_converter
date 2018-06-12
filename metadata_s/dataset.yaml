@@ -1,0 +1,21 @@
+name: ALD
+long_name: Load Signature Analysis For Residential Load
+creators:
+- omegawea
+publication_date: 2018
+institution: None
+contact: omegawea@gmail.com
+description: Several hours of power data
+subject: Load Signature Analysis For Residential Load
+number_of_buildings: 1
+timezone: Asia/Shanghai
+geo_location:
+  locality: HK
+  country: HK
+  latitude: 0.00
+  longitude: 0.00
+related_documents:
+- http://
+- >
+  pending
+schema: https://

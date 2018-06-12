@@ -1,0 +1,26 @@
+meter:
+  model: Fluke 1738 Advanced Power Meter
+  manufacturer: Fluke
+  manufacturer_url: http://en-us.fluke.com/
+  description: The Fluke 1738 Three-Phase Advanced Power Logger built with Fluke Connect® mobile app and desktop software compatibility gives you the data you need to make critical power quality and energy decisions in real-time. Like the Fluke 1736 Power Logger, the 1738 Advanced Power Logger automatically captures and logs over 500 power quality parameters while also allowing you to troubleshoot more advanced power quality issues. Perform advanced analysis with an enhanced Power Quality Health Summary (EN50160) function that provides you with fast insight into overall electrical system health. The Power Quality Health Summary is based on detailed power quality data including viewable event waveform captures so you have even more visibility into the data you need to optimize system reliability and savings.
+  sample_period: 1   # the interval between samples. In seconds.
+  max_sample_period: 5   # Max allowable interval between samples. Seconds.
+  measurements:
+  - physical_quantity: power
+    type: active
+    upper_limit: 50000
+    lower_limit: 0
+  wireless: false
+logger:
+  model: Fluke 1738 Advanced Power Logger
+  manufacturer: Fluke
+  manufacturer_url: http://en-us.fluke.com/
+  description: The Fluke 1738 Three-Phase Advanced Power Logger built with Fluke Connect® mobile app and desktop software compatibility gives you the data you need to make critical power quality and energy decisions in real-time. Like the Fluke 1736 Power Logger, the 1738 Advanced Power Logger automatically captures and logs over 500 power quality parameters while also allowing you to troubleshoot more advanced power quality issues. Perform advanced analysis with an enhanced Power Quality Health Summary (EN50160) function that provides you with fast insight into overall electrical system health. The Power Quality Health Summary is based on detailed power quality data including viewable event waveform captures so you have even more visibility into the data you need to optimize system reliability and savings.
+  sample_period: 1   # the interval between samples. In seconds.
+  max_sample_period: 5   # Max allowable interval between samples. Seconds.
+  measurements:
+  - physical_quantity: power
+    type: active
+    upper_limit: 50000
+    lower_limit: 0
+  wireless: false
