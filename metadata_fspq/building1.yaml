@@ -1,0 +1,19 @@
+instance: 1 # this is the first building in the dataset
+original_name: house_1 
+elec_meters: # a dictionary where each key is a meter instance
+  1: 
+    site_meter: true
+    device_model: meter
+  9:
+    submeter_of: 1
+    device_model: logger
+  13: 
+    submeter_of: 1
+    device_model: logger
+appliances:
+- type: clothes iron
+  instance: 1
+  meters: [9]
+- type: washing machine
+  instance: 1
+  meters: [13]
